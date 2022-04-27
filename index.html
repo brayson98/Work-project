@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Recipes4U</title>
+  </head>
+  <body class="page-width container-center">
+    <!-- Page title and Navigation -->
+    <header class="header">
+      <img class="logo" src="img/Icons/recipe-logo.jpg" alt="Recipes4U logo" />
+      <h1 class="title">
+        <a class="link" href="html/index.html">Recipes4U</a>
+      </h1>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <input
+            href="html/search.html"
+            class="search-bar"
+            type="text"
+            placeholder="Ingredient, dish, keyword"
+          />
+          <li>
+            <a class="nav-link link" href="html/my-account.html">My account</a>
+          </li>
+          <li>
+            <a class="nav-link link" href="html/create.html">Create a recipe</a>
+          </li>
+          <li>
+            <a class="nav-link link" href="html/sign-up.html"
+              >Sign-up / Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--  -->
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              <u><strong>Easy cheap recipes</strong></u>
+            </h1>
+            <div class="container">
+              <img
+                class="hero-image"
+                src="img/tofu-stirfry-img.webp"
+                alt="image of a tofu stir-fry"
+              />
+
+              <p class="hero-description">
+                Kick off term-time with our easy student recipes. We’ve got easy
+                veggie meals like this veggie chilli and quick and easy dishes
+                including this speedy stir-fry. Plus ideas for delicious meals
+                that are packed with flavour and perfect for feeding friends.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Popular recipes section -->
+      <h2 class="heading-secondary heading-inspired">Popular recipes...</h2>
+      <section class="popular-recipes">
+        <div class="grid popular-recipes-grid">
+          <img
+            class="popular-image-1"
+            src="img/burger-img.jpg"
+            alt="image of a homemade burger"
+          />
+          <a class="burger-description popular-image-description link" href="#"
+            ><strong>Homemade burgers</strong></a
+          >
+        </div>
+        <div class="grid popular-recipes-grid">
+          <img
+            class="popular-image-3"
+            src="img/leftover-chicken-img.webp"
+            alt="image of a chicken sandwich"
+          />
+          <a class="popular-image-description link" href="html/search.html"
+            ><strong>The best leftover chicken recipes</strong></a
+          >
+        </div>
+        <div class="grid popular-recipes-grid">
+          <img
+            class="popular-image-2"
+            src="img/vegetarian-img.webp"
+            alt="image of a fresh salad"
+          />
+          <a class="popular-image-description link" href="#"
+            ><strong>Healthy vegetarian options</strong></a
+          >
+        </div>
+        <div class="grid popular-recipes-grid">
+          <ul class="popular-recipes-list">
+            <h3>
+              <a
+                class="popular-recipes-list-item popular-recipes-list-item-title"
+                >Popular recipes:</a
+              >
+            </h3>
+            <li>
+              <a class="popular-recipes-list-item link" href="#"
+                >Golden beer battered fish and chips</a
+              >
+            </li>
+            <li>
+              <a class="popular-recipes-list-item link" href="#">Pizza dough</a>
+            </li>
+            <li>
+              <a class="popular-recipes-list-item link" href="#"
+                >Creamy garlic lemon and spinach salmon
+              </a>
+            </li>
+            <li>
+              <a class="popular-recipes-list-item link" href="#"
+                >Chicken shawarma</a
+              >
+            </li>
+            <li>
+              <a class="popular-recipes-list-item link" href="#"
+                >Super quick sesame ramen</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Inspired section -->
+      <h2 class="heading-secondary heading-inspired">Be inspired...</h2>
+      <section class="inspired">
+        <div class="grid inspired-grid">
+          <img
+            class="inspired-image"
+            src="img/cake-img.webp"
+            alt="image of a homemade cake"
+          />
+          <a class="popular-image-description link" href="#"
+            ><strong>Top 10 Mother's Day cakes</strong></a
+          >
+        </div>
+        <div class="grid inspired-grid">
+          <img
+            class="inspired-image"
+            src="img/salad-bowl-img.webp"
+            alt="image of a homemade salad"
+          />
+          <a class="popular-image-description link" href="#"
+            ><strong>Top 50 easy lunch ideas</strong></a
+          >
+        </div>
+        <div class="grid inspired-grid">
+          <img
+            class="inspired-image"
+            src="img/spring-chicken.webp"
+            alt="image of a roast chicken"
+          />
+          <a class="popular-image-description link" href="#"
+            ><strong>Top 10 Spring dinner ideas</strong></a
+          >
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter-section container">
+        <div class="newsletter">
+          <h3 class="heading-tertiary">Never miss a recipe from Recipes4U</h3>
+          <p>Sign up to receive our weekly newsletter</p>
+          <form class="newsletter-form">
+            <input type="text" placeholder="John Smith" name="name" required />
+            <input
+              type="email"
+              placeholder="JohnSmith@hotmail.com"
+              name="email"
+              required
+            />
+            <div class="container">
+              <input type="submit" value="Subscribe" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- Bottom navigation -->
+      <footer>
+        <nav class="nav nav-bot container">
+          <ul class="nav-list">
+            <li>
+              <a class="nav-link link" href="html/my-account.html"
+                >My account</a
+              >
+            </li>
+
+            <li>
+              <a class="nav-link link" href="html/create.html"
+                >Create a recipe</a
+              >
+            </li>
+            <li>
+              <a class="nav-link link" href="html/sign-up.html"
+                >Sign-up / Login</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="container contact">
+          <p class="adress">
+            1717 Harrison St, San Francisco, CA 94103, USA <br />
+            Copyright &copy; <span class="year">2027</span> by Recipes4U, Inc.
+            All rights reserved.
+          </p>
+          <img
+            class="logo"
+            src="img/Icons/recipe-logo.jpg"
+            alt="Recipes4U logo"
+          />
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

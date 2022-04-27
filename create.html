@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Create your recipe</title>
+  </head>
+  <body class="page-width container-center">
+    <header class="header">
+      <img class="logo" src="img/Icons/recipe-logo.jpg" alt="Recipes4U logo" />
+      <h1 class="title">
+        <a class="link" href="html/index.html">Recipes4U</a>
+      </h1>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <input
+            href="html/search.html"
+            class="search-bar"
+            type="text"
+            placeholder="Ingredient, dish, keyword"
+          />
+          <li>
+            <a class="nav-link link" href="html/my-account.html">My account</a>
+          </li>
+          <li><a class="nav-link link" href="html/index.html">Home</a></li>
+
+          <li>
+            <a class="nav-link link" href="html/sign-up.html"
+              >Sign-up / Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="create-page">
+      <h3 class="cyo-title">Recipe details</h3>
+      <div class="grid grid--2-cols big-margin-top">
+        <div class="flex-div">
+          <a class="link">
+            <img class="cyo-image" src="img/camera.png" />
+          </a>
+          <p>Add an image (optional)</p>
+          <div class="cyo-recipe-title">
+            <p class="small-margin-top">
+              Recipe title (keep is short and descriptive)
+            </p>
+            <br />
+            <input
+              class="cyo-input recipe-input"
+              type="text"
+              placeholder="e.g. Homamade apple pie"
+            />
+          </div>
+          <div class="cyo-recipe-description">
+            <p class="small-margin-top">Short intro (10-15 words></p>
+            <br />
+            <input
+              class="cyo-input recipe-input"
+              type="text"
+              placeholder="Tell us about your recipe"
+            />
+          </div>
+        </div>
+        <div class="cyo-timing">
+          <h4>Timing</h4>
+          <p>Prep time (approx)</p>
+          <input class="prep-time" type="text" placeholder="0 hours" />
+          <input class="prep-time" type="text" placeholder="0 mins" />
+          <p>Cook time (approx)</p>
+          <input class="prep-time" type="text" placeholder="0 hours" />
+          <input class="prep-time" type="text" placeholder="0 mins" />
+
+          <p>Any extra time</p>
+          <input
+            class="extra-time recipe-input"
+            type="text"
+            placeholder="e.g. resting"
+          />
+          <p>Servings</p>
+          <input class="recipe-input" type="text" placeholder="e.g. serves 4" />
+        </div>
+      </div>
+      <!-- How to make -->
+      <section class="how-to-make grid grid--2-cols">
+        <div class="ingredients">
+          <h4>Ingredients</h4>
+          <br />
+          <p>
+            Please use metric if possible <br />
+            <br />
+            You can split your ingredients into groups, e.g. sauce, filling etc.
+          </p>
+          <label>Ingredients:</label>
+
+          <input
+            class="recipe-input"
+            type="text"
+            placeholder="500g chicken thighs diced"
+            name="add-ingredient"
+          />
+          <button class="add-button">Add next ingredient</button>
+          <button class="add-button">Add group heading</button>
+        </div>
+
+        <div class="how-to-method">
+          <h4>Method</h4>
+          Step 1:
+
+          <input
+            class="recipe-input"
+            type="text"
+            placeholder="First, boil the rice"
+          />
+          <button class="add-button">Add next step</button>
+        </div>
+        <button class="save-button">Save recipe</button>
+      </section>
+      <footer>
+        <nav class="nav nav-bot container">
+          <ul class="nav-list">
+            <li>
+              <a class="nav-link link" href="html/my-account.html"
+                >My account</a
+              >
+            </li>
+
+            <li><a class="nav-link link" href="html/index.html">Home</a></li>
+            <li>
+              <a class="nav-link link" href="html/sign-up.html"
+                >Sign-up / Login</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="container contact">
+          <p class="adress">
+            1717 Harrison St, San Francisco, CA 94103, USA <br />
+            Copyright &copy; <span class="year">2027</span> by Recipes4U, Inc.
+            All rights reserved.
+          </p>
+          <img
+            class="logo"
+            src="img/Icons/recipe-logo.jpg"
+            alt="Recipes4U logo"
+          />
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

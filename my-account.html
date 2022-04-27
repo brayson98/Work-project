@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"defer></script>
+    <title>My account</title>
+  </head>
+  <body class="page-width container-center">
+    <header class="header">
+      <img class="logo" src="img/Icons/recipe-logo.jpg" alt="Recipes4U logo" />
+      <h1 class="title"><a class="link" href="html/index.html">Recipes4U</a></h1>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <input
+            href="html/search.html"
+            class="search-bar"
+            type="text"
+            placeholder="Ingredient, dish, keyword"
+          />
+          <li><a class="nav-link link" href="html/index.html">Home</a></li>
+          <li>
+            <a class="nav-link link" href="html/create.html">Create a recipe</a>
+          </li>
+          <li>
+            <a class="nav-link link" href="html/sign-up.html"
+              >Sign-up / Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h3 class="cyo-title small-padding-bot">Your account</h3>
+    <section class="your-profile profile-grid">
+      <div class="profile-tabs">
+        <img class="profile-pic" src="img/icons/profile-pic.webp" />
+        <p class="profile-name">John Doe</p>
+        <div class="profile-tab-flex">
+          <button data-tab-target="#profile" class="profile-tab tablinks">
+            Your profile
+          </button>
+          <button data-tab-target="#favourite-rec" class="profile-tab tablinks">
+            favourite recipes
+          </button>
+          <button data-tab-target="#personal" class="profile-tab tablinks">
+            Personal details
+          </button>
+        </div>
+      </div>
+      <!-- Your profile tab -->
+      <div class="container-flex">
+        <div id="profile" class="profile-div active" data-tab-content>
+
+          
+          <h3 class="profile-title">Your profile</h3>
+          <br />
+          <p>
+            This information will appear on your public profile and can be viewed
+            by other members.
+          </p>
+          <br />
+          
+          <p>Choose a profile pic (optional)</p>
+          <a class="link">
+            <img class="choose-profile-pic" src="img/icons/profile-pic.webp" />
+          </a>
+          <p class="margin-top-small">Create a screen name for yourself</p>
+          <div>
+            <p>Screen name:</p>
+            
+            <input class="account-input" type="text" placeholder="JohnD" />
+          </div>
+          
+          
+          
+          <div class="bio">
+            <p>Bio:</p>
+            
+            <input
+            class="account-input biography"
+            type="text"
+            placeholder="Tell us a bit about yourself (max 160 charecters)"
+            />
+          </div>
+          <div>
+          <p>Location:</p>
+          
+          <input
+          class="account-input"
+          type="text"
+          placeholder="Where are you located"
+          />
+        </div>
+        <button class="save-button">Save changes</button>
+      </div>
+      
+      <!-- Favourite recipe tab -->
+      <div id="favourite-rec" class="favourites-tab" data-tab-content>
+        
+        <h3 class="profile-title small-pad-bot">Favourite recipes</h3>
+        <div class="saved-recipes">
+          <img class="bookmark" src="img/icons/bookmark-outline.svg" />
+          <p>You haven't saved any recipes yet</p>
+          <br />
+          <p>
+            To start collecting your favourites, click on the "add to
+            favourites" button on the recipe page.
+          </p>
+        </div>
+      </div>
+      <!-- Personal details tab -->
+      <div id="personal" class="personal-details-tab" data-tab-content>
+        
+        <h3 class="profile-title">Personal details</h3>
+        <div class="flex-gap">
+          <div class="flex-center">
+              <label class="label-width">First name:</label>
+              <input class="personal-input" type="text" placeholder="John" />
+            </div>
+            <div class="flex-center">
+              <label class="label-width">Email:</label>
+              <input
+              class="personal-input"
+              type="email"
+              placeholder="JohnDoe@hotmail.com"
+              />
+            </div>
+          </div>
+          
+          <div class="flex-gap">
+            <div class="flex-center">
+              <label class="label-width">Last name:</label>
+              <input class="personal-input" type="text" placeholder="Doe" />
+            </div>
+            
+            <div class="flex-center">
+              <label class="label-width">Mobile:</label>
+              <input
+              class="personal-input"
+              type="text"
+              placeholder="07911 123456"
+              />
+            </div>
+          </div>
+          <div class="flex-center gap">
+            <label>Current password:</label>
+            <input class="personal-input" type="text" placeholder="" />
+          </div>
+          <div class="flex-center big-gap">
+            <label class="">New password: </label>
+            <input class="personal-input" type="text" placeholder="" />
+          </div>
+          <div class="flex-center button-gap">
+            <button class="save-button">Change password</button>
+            <button class="save-button">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+    <footer>
+      <nav class="nav nav-bot container">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link link" href="html/index.html">Home</a>
+          </li>
+
+          <li>
+            <a class="nav-link link" href="html/create.html">Create a recipe</a>
+          </li>
+          <li>
+            <a class="nav-link link" href="html/sign-up.html"
+              >Sign-up / Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="container contact">
+        <p class="adress">
+          1717 Harrison St, San Francisco, CA 94103, USA <br />
+          Copyright &copy; <span class="year">2027</span> by Recipes4U, Inc. All
+          rights reserved.
+        </p>
+        <img
+          class="logo"
+          src="img/Icons/recipe-logo.jpg"
+          alt="Recipes4U logo"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
